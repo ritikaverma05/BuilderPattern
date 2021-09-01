@@ -45,6 +45,7 @@ class BurgerBuilder{
         self.patties = choice
     }
     
+    
     func buildObj(name: String) -> Burger{
         
         return Burger(name: name, veggie: self.veggie, patties: self.patties, pickles: self.pickles, mayo: self.mayo, ketchup: self.ketchup, lettuce: self.lettuce, cook: self.cooked)
